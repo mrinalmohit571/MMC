@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <RemoteWebDriverHub>http://localhost:4444/wd/hub</RemoteWebDriverHub>
+  <DriverType>Selenium</DriverType>
+  <Browsers>
+    <Browser type ="Chrome">
+      <DriverPath>>\..\..\Driver</DriverPath>
+      <DriverCapabilities>Chrome</DriverCapabilities>
+      <UseDefaultProfile>false</UseDefaultProfile>
+      <PathToProfile>C:\Users\ci_objectivity\AppData\Roaming\Mozilla\Firefox\Profiles</PathToProfile>
+    </Browser>
+    <Browser type ="Firefox">
+      <DriverPath>\..\..\..\FirefoxPortable\FirefoxPortable.exe</DriverPath>
+      <DriverCapabilities>Firefox</DriverCapabilities>
+      <UseDefaultProfile>false</UseDefaultProfile>
+      <PathToProfile>C:\Users\ci_objectivity\AppData\Roaming\Mozilla\Firefox\Profiles</PathToProfile>
+    </Browser>
+   
+  </Browsers>
+  <UseCurrentDirectory>true</UseCurrentDirectory>
+  <ScreenShotFolder>\TestOutput</ScreenShotFolder>
+  <FullDesktopScreenShotEnabled>true</FullDesktopScreenShotEnabled>
+  <LogsLocation>Logs</LogsLocation>
+  <ReportType>Extent</ReportType>
+  <ReportLocation>Reports</ReportLocation>
+  <ORLocation>ORLocation</ORLocation>
+  <Applications>
+
+    <Application>
+      <Name>Google_UI</Name>
+      <UI>https://www.google.com/</UI>
+	</Application>
+
+	  <Application>
+		  <Name>zippopotam_API</Name>
+		  <API>http://zippopotam.us/</API>
+	  </Application>
+
+  </Applications>
+</config>

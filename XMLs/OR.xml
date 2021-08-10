@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationList>
+	<Application name ="Google_UI">
+		<Page name="GoogleSearch">
+			<Locator name ="txtSearchBox" Type ="XPath" Value ="//input[@name='q']"/>
+			<Locator name ="Sectionlnk" Type ="XPath" Value ="//div[@class='hdtb-mitem']/a[text()='$Val$']"/>
+			<Locator name ="BookLink_Index" Type ="XPath" Value ="(//div[@class='Yr5TG'][$Val$]//a[contains(@href,'https://books.google.com/books')])[2]"/>
+			<Locator name ="BookName_Index" Type ="XPath" Value ="//div[@class='Yr5TG'][$Val$]//h3"/>
+		</Page>
+
+		<Page name="GoogleMap">
+			<Locator name ="zoomOutBtn" Type ="XPath" Value ="//button[@id='widget-zoom-out']"/>
+			<Locator name ="scaleDistance" Type ="XPath" Value ="//div[@id='scale']//label"/>
+		</Page>
+
+	</Application>
+
+</ApplicationList>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SearchData>
+	<Item name="Book" >
+		<Title>how to grow asparagus</Title>
+		<Section>Books</Section>
+		<Index>3</Index>
+	</Item>
+
+	<Item name="Map" >
+		<Title>Paravani Lake</Title>
+		<Section>Maps</Section>
+		<Scale>100</Scale>
+	</Item>
+
+	<Item name="zip1" >
+		<PostCode>51201</PostCode>
+		<CountryCode>US</CountryCode>
+		<CountryName>United States</CountryName>
+		<ResponseTime>250</ResponseTime>
+	</Item>
+
+	<Item name="zip2" >
+		<PostCode>79201</PostCode>
+		<CountryCode>US</CountryCode>
+		<CountryName>United States</CountryName>
+		<ResponseTime>250</ResponseTime>
+	</Item>
+
+	<Item name="zip3" >
+		<PostCode>99786</PostCode>
+		<CountryCode>US</CountryCode>
+		<CountryName>United States</CountryName>
+		<ResponseTime>250</ResponseTime>
+	</Item>
+
+
+</SearchData>
+
+
+
